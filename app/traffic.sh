@@ -1,5 +1,5 @@
 #!/bin/bash
-
+dir="/root/xray-traffic-statistics"
 _APISERVER=127.0.0.1:14279
 _XRAY=/usr/bin/xray/xray
 
