@@ -33,7 +33,7 @@ print_sum() {
         /->down/{ds+=$2}')
     local SOR=$(echo "${SORTED}" | awk -F':' '{print $2}')
     local TIM=$(echo $(date +%s))
-    echo -e "${SOR}\n${SORTEF}"  | column -t
+    echo -e "${SOR}\n${SORTEF}"  | column -t >> $dir/tmp/log.log
 
 }
 
