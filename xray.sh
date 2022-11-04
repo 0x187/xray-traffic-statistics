@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #script directory
-dir="/root/xray"
+dir="/root/xray-traffic-statistics"
 
 #Database
 db_datetime="datetime('now','+04:30')"

@@ -1,6 +1,6 @@
 #!/bin/bash
 #location
-dir='/root/xray'
+dir='/root/xray-traffic-statistics'
 db="$dir/database/xray.db"
 db_csv="$dir/tmp/db.csv"
 log=$(< $dir/tmp/db.log)
