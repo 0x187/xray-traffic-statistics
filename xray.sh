@@ -11,7 +11,7 @@ db="$dir/database/xray.db"
 echo -n "" > "$dir/tmp/log.log"
 
 #calling traffic app to save users traffic on this file: $dir/tmp/log.log
-$dir/app/trafic
+$dir/app/traffic.sh
 
 while read first_line; read second_line
 do
