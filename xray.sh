@@ -8,10 +8,10 @@ db_datetime="datetime('now','+04:30')"
 db="$dir/database/xray.db"
 
 #Empty log file
-#echo -n "" > "$dir/tmp/log.log"
+echo -n "" > "$dir/tmp/log.log"
 
 #calling traffic app to save users traffic on this file: $dir/tmp/log.log
-#$dir/app/traffic.sh
+$dir/app/traffic.sh
 
 while read first_line; read second_line
 do
@@ -26,4 +26,4 @@ do
  done < "$dir/tmp/log.log"
 
 #Empty log file
-#echo -n "" > "$dir/tmp/log.log"
+echo -n "" > "$dir/tmp/log.log"
